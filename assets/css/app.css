@@ -1,0 +1,24 @@
+:root{
+  /* Navbar */
+  --navbar-height: 58px;
+  --navbar-background: #1c202b;
+  --navbar-text-color: #fff;
+
+  /* Sidebar */
+  --sidebar-width: 200px;
+  --sidebar-background: #1c202b;
+  --sidebar-text-color: #fff;
+
+  /* Main page  */
+  --main-background: #151821;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app-page{
+  background: var(--main-background);
+  width: calc(100% - var(--sidebar-width));
+  margin-left: var(--sidebar-width);
+}

@@ -1,6 +1,6 @@
 <template>
   <div id="app-page">
-    <div>This is main content</div>
+    <div>This is main content. Add test content from work</div>
   </div>
 </template>
 <script>
